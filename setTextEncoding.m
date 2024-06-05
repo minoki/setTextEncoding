@@ -6,9 +6,9 @@
 #include <Foundation/Foundation.h>
 #include <CoreFoundation/CoreFoundation.h>
 
-int main (int argc, char const * const * argv) {
+int main (int argc, char *argv[]) {
   if (argc <= 1) {
-  	fprintf(stderr, "usage: %s [encoding] files...\n", argv[0]);
+    fprintf(stderr, "usage: %s [encoding] files...\n", argv[0]);
     return 1;
   }
   id pool = [NSAutoreleasePool new];
