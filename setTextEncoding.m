@@ -1,5 +1,6 @@
-// An utility to set text file encoding (com.apple.TextEncoding attribute)
-// Copyright (c) 2011-2012 ARATA Mizuki
+// A utility to set text file encoding (com.apple.TextEncoding attribute)
+// Copyright (c) 2011-2012,2024 ARATA Mizuki
+// See LICENSE for copyright information.
 #include <stdio.h>
 #include <sys/xattr.h>
 #include <Foundation/Foundation.h>
